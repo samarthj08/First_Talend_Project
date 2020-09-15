@@ -1,13 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Test" jobType="Standard" xmi:version="2.0">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="Employee_File" prompt="Employee_File" promptNeeded="true" type="id_String" value="C:/Users/rutujap/Documents/Employee.txt"/>
-    <contextParameter comment="" name="Dept_File" prompt="Dept_File" promptNeeded="true" type="id_String" value="C:/Users/rutujap/Documents/Dept.txt"/>
-    <contextParameter comment="" name="Out_File" prompt="Out_File" promptNeeded="true" type="id_String" value="C:/Users/rutujap/Documents/Join_Matched.txt"/>
+    <contextParameter comment="" name="Dept_File" prompt="Dept_File" promptNeeded="true" repositoryContextId="_ZayLEPc3EeqHcbs7GUzDCQ" type="id_String" value="&quot;C:\Users\samarthj\Desktop\Talend Execution Framework/Dept.txt&quot;"/>
+    <contextParameter comment="" name="Employee_File" prompt="Employee_File" promptNeeded="true" repositoryContextId="_ZayLEPc3EeqHcbs7GUzDCQ" type="id_String" value="&quot;C:\Users\samarthj\Desktop\Talend Execution Framework/Employee.txt&quot;"/>
+    <contextParameter comment="" name="Out_File" prompt="Out_File" promptNeeded="true" repositoryContextId="_ZayLEPc3EeqHcbs7GUzDCQ" type="id_String" value="&quot;C:\Users\samarthj\Desktop\Talend Execution Framework/Join_Matched.txt&quot;"/>
   </context>
   <context confirmationNeeded="false" name="Test">
-    <contextParameter comment="" name="Employee_File" prompt="Employee_File" promptNeeded="true" type="id_String" value="C:/Users/rutujap/Documents/EmployeeCopy.txt"/>
-    <contextParameter comment="" name="Dept_File" prompt="Dept_File" promptNeeded="true" type="id_String" value="C:/Users/rutujap/Documents/DeptCopy.txt"/>
-    <contextParameter comment="" name="Out_File" prompt="Out_File" promptNeeded="true" type="id_String" value="C:/Users/rutujap/Documents/Join_Matched_dev.txt"/>
+    <contextParameter comment="" name="Dept_File" prompt="Dept_File?" promptNeeded="true" repositoryContextId="_ZayLEPc3EeqHcbs7GUzDCQ" type="id_String" value="C:\Users\samarthj\Desktop\Talend Execution Framework/DeptCopy.txt"/>
+    <contextParameter comment="" name="Employee_File" prompt="Employee_File?" promptNeeded="true" repositoryContextId="_ZayLEPc3EeqHcbs7GUzDCQ" type="id_String" value="C:\Users\samarthj\Desktop\Talend Execution Framework/EmployeeCopy.txt"/>
+    <contextParameter comment="" name="Out_File" prompt="Out_File?" promptNeeded="true" repositoryContextId="_ZayLEPc3EeqHcbs7GUzDCQ" type="id_String" value="C:\Users\samarthj\Desktop\Talend Execution Framework/Join_Matched_dev.txt"/>
+  </context>
+  <context confirmationNeeded="false" name="Dev_Context">
+    <contextParameter comment="" name="Dept_File" prompt="Dept_File?" promptNeeded="true" repositoryContextId="_ZayLEPc3EeqHcbs7GUzDCQ" type="id_String" value="C:\Users\samarthj\Desktop\Talend Execution Framework/DeptCopy.txt"/>
+    <contextParameter comment="" name="Employee_File" prompt="Employee_File?" promptNeeded="true" repositoryContextId="_ZayLEPc3EeqHcbs7GUzDCQ" type="id_String" value="C:\Users\samarthj\Desktop\Talend Execution Framework/EmployeeCopy.txt"/>
+    <contextParameter comment="" name="Out_File" prompt="Out_File?" promptNeeded="true" repositoryContextId="_ZayLEPc3EeqHcbs7GUzDCQ" type="id_String" value="C:\Users\samarthj\Desktop\Talend Execution Framework/Join_Matched_dev.txt"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
@@ -51,7 +56,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:demlhs8VQpfg0/At9bZc4yNHIfOhG39mKqAP6fzK"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:/8kwJCf7LhTVWTOJWBLcxLy8hT+ycDAssUCDr/oy"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -86,7 +91,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:pnpszI5s19Qtiz76onqUbnY1yPLqW007BEIWoWtb"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:Vt6b0vgmfld/DnRTvf9CHRgHzRBsyd/fGETymjli"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
