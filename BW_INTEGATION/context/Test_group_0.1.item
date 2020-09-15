@@ -5,8 +5,8 @@
     <contextParameter comment="" name="Out_File" prompt="Out_File" promptNeeded="true" type="id_String" value="&quot;C:\Users\samarthj\Desktop\Talend Execution Framework/Join_Matched.txt&quot;" xmi:id="_ZbR6U_c3EeqHcbs7GUzDCQ"/>
   </talendfile:ContextType>
   <talendfile:ContextType confirmationNeeded="false" name="Dev_Context" xmi:id="_jHymcPc4EeqHcbs7GUzDCQ">
-    <contextParameter comment="" name="Employee_File" prompt="Employee_File?" promptNeeded="false" type="id_String" value="C:\Users\samarthj\Desktop\Talend Execution Framework/EmployeeCopy.txt" xmi:id="_jHymcfc4EeqHcbs7GUzDCQ"/>
-    <contextParameter comment="" name="Dept_File" prompt="Dept_File?" promptNeeded="false" type="id_String" value="C:\Users\samarthj\Desktop\Talend Execution Framework/DeptCopy.txt" xmi:id="_jHymcvc4EeqHcbs7GUzDCQ"/>
-    <contextParameter comment="" name="Out_File" prompt="Out_File?" promptNeeded="false" type="id_String" value="C:\Users\samarthj\Desktop\Talend Execution Framework/Join_Matched_dev.txt" xmi:id="_jHymc_c4EeqHcbs7GUzDCQ"/>
+    <contextParameter comment="" name="Employee_File" prompt="Employee_File?" promptNeeded="true" type="id_String" value="C:\Users\samarthj\Desktop\Talend Execution Framework/EmployeeCopy.txt" xmi:id="_jHymcfc4EeqHcbs7GUzDCQ"/>
+    <contextParameter comment="" name="Dept_File" prompt="Dept_File?" promptNeeded="true" type="id_String" value="C:\Users\samarthj\Desktop\Talend Execution Framework/DeptCopy.txt" xmi:id="_jHymcvc4EeqHcbs7GUzDCQ"/>
+    <contextParameter comment="" name="Out_File" prompt="Out_File?" promptNeeded="true" type="id_String" value="C:\Users\samarthj\Desktop\Talend Execution Framework/Join_Matched_dev.txt" xmi:id="_jHymc_c4EeqHcbs7GUzDCQ"/>
   </talendfile:ContextType>
 </xmi:XMI>
